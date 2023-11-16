@@ -1,3 +1,4 @@
+'''
 prijzen ={
     "aardbei":3,
     "vanille":4,
@@ -15,11 +16,13 @@ reclame_tekst4=reclame_tekst3.split()
 
 #print(reclame_tekst4)
 
-for el in reclame_tekst4:
-    print(el.lower())
+
+#for el in reclame_tekst4:
+#    print(el.lower())
 
 #for el in reclame_tekst4:
 #    if el == 4:
 #        print(el.lower)
 #    else:
-#        print(el)    
+#        print(el)   '''  
+
