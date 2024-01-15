@@ -1,5 +1,5 @@
 
-
+from algemene_functies import mijn_functie_2
 
 
 aanbieding_1={
@@ -38,12 +38,12 @@ print(mean)
 print(f"De gemiddelde inkomsten deze week zijn {int(mean)} euro.")
 
 
-mijn_functie_2={
+'''mijn_functie_2={
 12.3:[15,9,36,4],
 12.2:[14, 10, 24, 6],
 10.5:[15, 5, 50, 2],
 100.20:[120, 80, 2000, 5]
-}
+}'''
 
 
 meervoudig={
@@ -61,4 +61,3 @@ def combinatie(invoer_lijst_2):
     korte_lijst = meervoudig("invoer_lijst")
     return mijn_functie_2(korte_lijst)
 
-print(combinatie(mijn_functie_2))
