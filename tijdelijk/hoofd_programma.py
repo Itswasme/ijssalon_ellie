@@ -1,4 +1,4 @@
-from helper import onderstreep
+from algemene_functies.helper import onderstreep
 
 uitvoer=onderstreep("AANBIEDING")
 uitvoer.append("Aardbeienijs, emmertje van 5 liter: 5 euro")

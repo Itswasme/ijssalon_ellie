@@ -1,4 +1,4 @@
-from helper import decoreer
+from algemene_functies.helper import decoreer
 
 def print_aanbieding():
     prijzen ={
