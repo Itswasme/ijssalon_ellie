@@ -15,3 +15,4 @@ mijn_functie_2={
 }
 
 print(mijn_functie_2[12.3])
+1
