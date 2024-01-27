@@ -1,5 +1,5 @@
 from helper import *
-import pandas
+import csv
 
 inkomsten={"Aardbeien-ijs-totaal":1000,
 "Vanille-ijs-totaal": 2000,
@@ -9,7 +9,7 @@ inkomsten={"Aardbeien-ijs-totaal":1000,
 
 totaal_inkomsten=som(inkomsten)
 
-with open('boekhouding.csv’, 'w',newline='') as csvfile:
-     for key, value in inkomsten.items():
-     writer = csv.writer(csvfile, delimter=';')
-     writer.writerow([key,value])
+with open('boekhouding.csv', 'w', newline='') as csvfile:
+    for key, value in inkomsten.items():
+        writer = csv.writer(csvfile, delimiter=';')
+        writer.writerow([key, value])
